@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: rgb(29, 87, 195);
+    border: 2px solid rgb(29, 87, 195);
+    border-radius: 20px;
+    padding-inline: 1rem;
+    padding-block: .3rem;
+}
+.nav-link{
+    transition: all .5s ;
+    
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-inline: 2rem;
+    padding-block: .3rem;
+}
+
+.nav-link:hover{
+    color: rgb(29, 87, 195);
+    border: 2px solid rgb(29, 87, 195);
+   
+}
+#hero{
+    background-image: url(../sky.jfif);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.layer{
+
+    background-color: rgba(0, 0, 0,0.2);
+    height: 100vh;
+}
+.content{
+    background-color: rgba(0, 0, 0,0); 
+}
+#button-addon2{
+    border-radius: 0px 20px 20px 0;
+}
+#search{
+    border-radius: 20px 0px 0px 20px;
+}
+.day-weather{
+    background-color: rgba(0, 0, 0,0.5); 
+    border: 2px solid white;
+}
+.day ,.month{
+    background-color: rgb(92, 92, 92);
+}
